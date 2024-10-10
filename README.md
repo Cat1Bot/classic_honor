@@ -1,5 +1,5 @@
 # Legacy Honor System
-A plugin for Pengu Loader to revert the honor system changes in patch 14.19. No more honoring enemies (lets be real - its cringe and imo toxic). NOTE: this plugin may stop working at any time as Riot may remove the config flag or the legacy components all toghether.
+A plugin for Pengu Loader to revert the honor system changes in patch 14.19. No more honoring enemies (lets be real - its cringe and imo toxic). Yes this is kind of an exploit plugin since you can honor a teammate for reasons you normally cant do anymore. NOTE: this plugin may stop working at any time as Riot may remove the config flag or the legacy components all toghether.
 
 BEFORE: 
 ![before](https://github.com/user-attachments/assets/8708a0a7-9640-4063-8696-9f75ff7f9adb)
