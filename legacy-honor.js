@@ -10,11 +10,12 @@ XMLHttpRequest.prototype.open = function(_, url) {
                 if (this.readyState === 4) {
                     const content = JSON.stringify({
                         Enabled: true,
-			HonorSuggestionsEnabled: true,
-			HonorVisibilityEnabled: false,
-			SecondsToVote: 90,
-			ceremonyV3Enabled: false,
-			honorEndpointsV2Enabled: false
+						HonorSuggestionsEnabled: true,
+						HonorVisibilityEnabled: false,
+						SecondsToVote: 90,
+						ceremonyV3Enabled: false,
+						honorEndpointsV2Enabled: false,
+						useHonorInPostgamePlugin: false
                     });
 
                     Object.defineProperty(this, 'responseText', {
@@ -34,3 +35,4 @@ XMLHttpRequest.prototype.open = function(_, url) {
 
     _xhrOriginalOpen.apply(this, arguments);
 };
+
